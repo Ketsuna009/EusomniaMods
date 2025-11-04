@@ -1,0 +1,10 @@
+[
+	{
+		"op": "addmerge",
+		"file": "grog:recipes/grid/refractorybrick.json",
+		"path": "/enabled",
+		"value": "false",
+		"side": "Server",
+		"dependsOn": [ { "modid": "grog" } ]
+	}
+]

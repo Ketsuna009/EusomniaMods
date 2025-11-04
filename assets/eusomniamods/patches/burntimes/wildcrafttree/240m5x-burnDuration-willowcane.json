@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustibleProps/burnDuration",
+    "value": 40,
+    "file": "wildcrafttree:itemtypes/resource/willowcane.json",
+    "side": "Server",
+    "dependsOn": [{ "modid": "wildcrafttree" }]
+  }
+]

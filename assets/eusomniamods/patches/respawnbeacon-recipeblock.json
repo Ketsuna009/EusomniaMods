@@ -1,0 +1,18 @@
+[
+	{
+		"op": "addmerge",
+		"file": "respawntools:recipes/grid/respawnbeacon.json",
+		"path": "/enabled",
+		"value": false,
+		"side": "Server",
+		"dependsOn": [ { "modid": "respawntools" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "respawntools:recipes/grid/respawntablet.json",
+		"path": "/enabled",
+		"value": false,
+		"side": "Server",
+		"dependsOn": [ { "modid": "respawntools" } ]
+	}
+]

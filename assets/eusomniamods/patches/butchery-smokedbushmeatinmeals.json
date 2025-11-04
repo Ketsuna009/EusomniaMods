@@ -1,0 +1,51 @@
+[
+	{
+    	"op": "add",
+    	"file": "game:blocktypes/clay/fired/pot.json",
+    	"path": "/attributesByType/claypot-blue-cooked/textureMapping/butchering:smoked-*-bushmeat",
+    	"value": [ "meat", "group6" ]
+  	},
+	{
+		"op": "add",
+		"file": "game:recipes/cooking/meatystew.json",
+		"path": "/ingredients/0/validStacks/-",
+		"value": {
+			"type": "item",
+			"code": "butchering:smoked-*-bushmeat", 
+			"shapeElement": "bowl/meat stew/*",
+			"textureMapping": ["meat", "group6"]
+		}
+	},
+	{
+		"op": "add",
+		"file": "game:recipes/cooking/meatystew.json",
+		"path": "/ingredients/2/validStacks/-",
+		"value": {
+			"type": "item",
+			"code": "butchering:smoked-*-bushmeat",
+			"shapeElement": "bowl/meat stew/*",
+			"textureMapping": [ "meat", "group6" ]
+		}
+	},
+	{
+		"op": "add",
+		"file": "game:recipes/cooking/meatystew.json",
+		"path": "/ingredients/3/validStacks/-",
+		"value": {
+			"type": "item",
+			"code": "butchering:smoked-*-bushmeat",
+			"shapeElement": "bowl/meat stew/*",
+			"textureMapping": [ "meat", "group6" ]
+		}
+	},
+	{
+   		"op": "add",
+   		"file": "game:recipes/cooking/soup.json",
+    	"path": "/ingredients/4/validStacks/-",
+    	"value": {
+      		"type": "item",
+      		"code": "butchering:smoked-*-bushmeat",
+      		"shapeElement": "bowl/meat/*"
+    	}
+  	},
+]

@@ -1,0 +1,195 @@
+[
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/0/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/0/output/quantity",
+		"value": 5,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/1/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/1/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/2/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/2/output/quantity",
+		"value": 5,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/3/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/3/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/4/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/4/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/5/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/5/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/6/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/6/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid3": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/7/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/7/output/quantity",
+		"value": 5,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/8/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/8/output/quantity",
+		"value": 3,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/9/output/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/9/output/quantity",
+		"value": 5,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/11/enabled",
+		"value": false,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/12/enabled",
+		"value": false,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/fishfillet.json",
+		"path": "/13/enabled",
+		"value": false,
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	},
+
+	{
+		"op": "replace",
+		"file": "primitivesurvival:recipes/grid/jerky-fish.json",
+		"path": "/ingredients/H/code",
+		"value": "game:fish-raw",
+		"dependsOn": [ { "modid": "primitivesurvival" } ],
+		"side": "Server"
+	}
+]

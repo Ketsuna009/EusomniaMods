@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modId": "eusomniamods",
+  "name": "Eusomnia Mods",
+  "authors": ["Marshy", "Ket"],
+  "description": "Mods for the Eusomnia server.",
+  "side": "Server",
+  "version": "1.6.6",
+  "dependencies": {
+    "game": "1.21.1",
+  }
+}

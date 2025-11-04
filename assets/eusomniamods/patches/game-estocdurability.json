@@ -1,0 +1,9 @@
+[
+	{
+		"op": "replace",
+		"file": "game:itemtypes/tool/blade.json",
+		"path": "/durabilitybytype/blade-forlorn-iron",
+		"value": 880,
+		"side": "Server"
+	}
+]

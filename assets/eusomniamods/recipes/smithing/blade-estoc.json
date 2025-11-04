@@ -1,0 +1,11 @@
+{
+	"ingredient": { "type": "item", "code": "game:ingot-meteoriciron", "name": "metal" },
+	"pattern": [[
+		"______########__",
+		"################",
+		"______########__",
+	]],
+	"name": "Estoc",
+	"output": { "type": "item", "code": "smithingplus:forlornblade-meteoriciron"  },
+	"dependsonOn": [ { "modid": "smithingplus" } ]
+}

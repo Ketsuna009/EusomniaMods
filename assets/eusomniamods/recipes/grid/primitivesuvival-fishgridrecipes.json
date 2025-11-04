@@ -1,0 +1,102 @@
+[
+	{
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+     	},
+      "H": {
+        "type": "item",
+        "name": "type",
+        "code": "primitivesurvival:pssaltwaterfish-*-raw",
+        "allowedVariants": [ "perch-pacific", "mackerel-atlantic", "herring-atlantic", "pollock-alaska", "hake-silver", "bream-sea", "gurnard-cape", "haddock-common" ],
+        "quantity": 1
+      		}
+    	},
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:fish-raw",
+      "quantity": 3
+    	}
+  	},
+  	{
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      	},
+      "H": {
+        "type": "item",
+        "name":  "type",
+        "code": "primitivesurvival:pssaltwaterfish-*-raw",
+        "allowedVariants": [ "coelacanth-common", "sturgeon-atlantic" ],
+        "quantity": 1
+      		}
+    	},
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:fish-raw",
+      "quantity": 10
+   			}
+  	},
+  	{
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      	},
+      "H": {
+        "type": "item",
+        "name":  "type",
+        "code": "primitivesurvival:pssaltwaterfish-*-raw",
+        "allowedVariants": [ "mahi-mahi-common", "amberjack-yellowtail", "wreckfish-atlantic"  ],
+        "quantity": 1
+      		}
+    	},
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:fish-raw",
+      "quantity": 7
+   			}
+  	},
+  	{
+    "ingredientPattern": "K,H",
+    "shapeless": true,
+    "ingredients": {
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      	},
+      "H": {
+        "type": "item",
+        "name":  "type",
+        "code": "primitivesurvival:pssaltwaterfish-*-raw",
+        "allowedVariants": [ "barracuda-great", "grouper-black", "snapper-red", "tuna-skipjack", "wolf-bering", "salmon-pink"],
+        "quantity": 1
+      		}
+    	},
+    "width": 1,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "game:fish-raw",
+      "quantity": 5
+   			}
+  	}
+]

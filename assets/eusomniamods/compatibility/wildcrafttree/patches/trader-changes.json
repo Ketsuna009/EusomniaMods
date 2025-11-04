@@ -1,0 +1,93 @@
+[
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-bearnut-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-beech-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-poplar-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/selling/list/-",
+    "value": {
+	"code": "wildcrafttree:planks-cedar-ud",
+	"type": "block",
+	    "stacksize": 32,
+	    "stock": { "avg": 4, "var": 1 },
+	    "price": { "avg": 2, "var": 0.5 }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/buying/list/-",
+    "value": {
+                "code": "wildcrafttree:crate", "type": "block",
+                "stacksize": 1,
+                "stock": { "avg": 2, "var": 0.5 },
+                "price": { "avg": 3, "var": 0.75 },
+                "attributes": { "type": "wood-willow" }
+    },
+    "file": "game:config/tradelists/trader-commodities.json",
+    "side": "Server"
+  },
+]
