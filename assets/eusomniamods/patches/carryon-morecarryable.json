@@ -1,0 +1,94 @@
+[
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/table.json",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"interactDelay": 1.5,
+				"translation": [ 0, 0, 0 ],
+				"rotation": [ 0, -90, 0],
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"rotation": [ 0, 0, -90]
+					}
+				}
+			}
+		},
+		"side": "Server",
+		"dependsOn": [ { "modid": "carryon" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/chair.json",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"interactDelay": 1.5,
+				"translation": [ 0, 0, 0 ],
+				"rotation": [ 0, -90, 0],
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"rotation": [ 0, 0, -90]
+					}
+				}
+			}
+		},
+		"side": "Server",
+		"dependsOn": [ { "modid": "carryon" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/trough-large.json",
+		"path": "/behaviors",
+		"value": [ ],
+		"side": "Server",
+		"dependsOn": [ { "modid": "carryon" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/trough-large.json",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"interactDelay": 1.5,
+				"translation": [ 0, 0, 0 ],
+				"rotation": [ 0, -90, 0],
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"rotation": [ 0, 0, -90]
+					}
+				}
+			}
+		},
+		"side": "Server",
+		"dependsOn": [ { "modid": "carryon" } ]
+	},
+	{
+		"op": "addmerge",
+		"file": "game:blocktypes/wood/trough-small.json",
+		"path": "/behaviors/-",
+		"value": {
+			"name": "Carryable",
+			"properties": {
+				"interactDelay": 1.5,
+				"translation": [ 0, 0, 0 ],
+				"rotation": [ 0, -90, 0],
+				"slots": {
+					"Hands": {},
+					"Back": {
+						"rotation": [ 0, 0, -90]
+					}
+				}
+			}
+		},
+		"side": "Server",
+		"dependsOn": [ { "modid": "carryon" } ]
+	}
+]

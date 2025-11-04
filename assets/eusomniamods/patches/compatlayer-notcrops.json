@@ -7,13 +7,15 @@
            "@.*-(lavender|rosemary|sage|softsedge|thyme|mugwort|poisonoak|holly|inula|plantain|saltwort|waterchestnut|arrowhead|skunkcabbage|foxglove|arnica|tansy|woodspurge|minerslettuce|stingingnettle|rockrose|burnet|cowbane|horehound|angelica)": false,
            "*": true
      	  },
-    	 "dependsOn": [ { "modid": "compatlayer" } ]
+    	"dependsOn": [ { "modid": "compatlayer" } ],
+		"side": "Server"
 	},
 	{
 		"op": "addmerge",
 		"file": "wildcraftherb:worldproperties/block/herbcrops.json",
 		"path": "/variants/-",
 		"value": { "code": "burdock" },
-    	"dependsOn": [ { "modid": "compatlayer" } ]
+    	"dependsOn": [ { "modid": "compatlayer" } ],
+		"side": "Server"
 	}
 ]

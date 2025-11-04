@@ -1,0 +1,114 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/components/1/text",
+    "value": [{
+          "value": "eusomniamods:dialogue-smuggler-listenpasttheend",
+          "condition": { "variable": "player.heardalchemistlocations", "isValue": "true" }, "jumpTo": "smuggler-intro" }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-intro",
+      "owner": "resonator",
+      "type": "talk",
+      "text": [
+        { "value": "eusomniamods:dialogue-smuggler-intro", "jumpTo": "smuggler-c1" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-c1",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        { "value": "dialogue-continue", "jumpTo": "smuggler-tobias" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-tobias",
+      "owner": "resonator",
+      "type": "talk",
+      "text": [
+        { "value": "eusomniamods:dialogue-smuggler-mentiontobias", "jumpTo": "smuggler-c2" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-c2",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        { "value": "dialogue-continue", "jumpTo": "smuggler-winter" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-winter",
+      "owner": "resonator",
+      "type": "talk",
+      "text": [
+        { "value": "eusomniamods:dialogue-smuggler-mentionwinter", "jumpTo": "smuggler-c3" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-c3",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        { "value": "dialogue-continue", "jumpTo": "smuggler-outro" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-outro",
+      "owner": "resonator",
+      "type": "talk",
+      "text": [
+        { "value": "eusomniamods:dialogue-smuggler-outro", "setVariables": { "player.heardsmuggler": "true" }, "jumpTo": "smuggler-c4" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  },
+  {
+    "op": "addmerge",
+    "path": "/components",
+    "value": [{
+      "code": "smuggler-c4",
+      "owner": "player",
+      "type": "talk",
+      "text": [
+        { "value": "eusomniamods:dialogue-smuggler-returntomain", "jumpTo": "main" }
+      ]
+    }],
+    "file": "game:config/dialogue/resonator.json"
+  }
+]

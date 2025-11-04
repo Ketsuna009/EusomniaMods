@@ -14,7 +14,8 @@
 			"code": "butchering:smoked-*-bushmeat", 
 			"shapeElement": "bowl/meat stew/*",
 			"textureMapping": ["meat", "group6"]
-		}
+		},
+		"side": "Server"
 	},
 	{
 		"op": "add",
@@ -25,7 +26,8 @@
 			"code": "butchering:smoked-*-bushmeat",
 			"shapeElement": "bowl/meat stew/*",
 			"textureMapping": [ "meat", "group6" ]
-		}
+		},
+		"side": "Server"
 	},
 	{
 		"op": "add",
@@ -36,7 +38,8 @@
 			"code": "butchering:smoked-*-bushmeat",
 			"shapeElement": "bowl/meat stew/*",
 			"textureMapping": [ "meat", "group6" ]
-		}
+		},
+		"side": "Server"
 	},
 	{
    		"op": "add",
@@ -46,6 +49,7 @@
       		"type": "item",
       		"code": "butchering:smoked-*-bushmeat",
       		"shapeElement": "bowl/meat/*"
-    	}
+    	},
+		"side": "Server"
   	},
 ]

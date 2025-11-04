@@ -1,0 +1,18 @@
+[
+	{
+		"op": "add",
+		"file": "jaunt:patches/instrument.json",
+		"path": "/0/enabled",
+		"value": false,
+		"side": "Server",
+		"dependsOn": [ { "modid": "jaunt" } ]
+	},
+	{
+		"op": "add",
+		"file": "jaunt:patches/instrument.json",
+		"path": "/1/enabled",
+		"value": false,
+		"side": "Server",
+		"dependsOn": [ { "modid": "jaunt" } ]
+	}
+]
