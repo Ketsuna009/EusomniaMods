@@ -3,7 +3,7 @@
 	"pattern": [[
 		"______########__",
 		"################",
-		"______########__",
+		"______########__"
 	]],
 	"name": "Estoc",
 	"output": { "type": "item", "code": "smithingplus:forlornblade-meteoriciron"  },

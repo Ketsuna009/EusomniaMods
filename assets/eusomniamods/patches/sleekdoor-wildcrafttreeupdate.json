@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "file": "wildcrafttree:/blocktypes/wood/woodtyped/door1.json",
+    "path": "/attributes/airtightByType/door-sleek*",
+    "value": true,
+    "side": "Server",
+    "dependsOn": [ { "modid": "wildcrafttree" } ]
+  }
+]

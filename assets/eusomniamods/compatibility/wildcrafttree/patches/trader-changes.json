@@ -89,5 +89,5 @@
     },
     "file": "game:config/tradelists/trader-commodities.json",
     "side": "Server"
-  },
+  }
 ]

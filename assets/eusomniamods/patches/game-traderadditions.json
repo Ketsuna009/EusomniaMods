@@ -1,0 +1,277 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "pemmican:seeds-corn",
+      "type": "item",
+      "stacksize": 4,
+      "stock": { "avg": 4, "var": 1 },
+      "price": { "avg": 3, "var": 0.75 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "pemmican" } ] 
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "pemmican:seeds-potato",
+      "type": "item",
+      "stacksize": 4,
+      "stock": { "avg": 4, "var": 1 },
+      "price": { "avg": 3, "var": 0.75 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "pemmican" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "pemmican:seeds-sugarbeet",
+      "type": "item",
+      "stacksize": 4,
+      "stock": { "avg": 4, "var": 1 },
+      "price": { "avg": 3, "var": 0.75 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "pemmican" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "pemmican:seeds-sugarcane",
+      "type": "item",
+      "stacksize": 4,
+      "stock": { "avg": 4, "var": 1 },
+      "price": { "avg": 3, "var": 0.75 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "pemmican" } ]
+  },
+  {
+    "op": "replace",
+    "file": "game:config/tradelists/trader-agriculture.json",
+    "path": "/selling/maxItems",
+    "value": 14
+  },
+
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-artisan.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-1",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 2, "var": 0.5 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-artisan.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-4",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 2, "var": 0.5 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-buildmaterials.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-3",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-commodities.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-8",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-commodities.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-5",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-commodities.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "butchering:smoked-cured-fish",
+      "type": "item",
+      "stacksize": 8,
+      "stock": { "avg": 8, "var": 2 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "dependsOn": [ { "modid": "butchering" } ],
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "file": "game:config/tradelists/trader-commodities.json",
+    "path": "/selling/maxItems",
+    "value": 10,
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "file": "game:config/tradelists/trader-commodities.json",
+    "path": "/buying/maxItems",
+    "value": 10,
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-furniture.json",
+    "path": "/selling/list/-",
+    "value": {
+      "code": "bed-village-head-north",
+      "type": "block",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 10, "var": 2.5 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-furniture.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-6",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-survivalgoods.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-7",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-survivalgoods.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-10",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-survivalgoods.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "cheese-waxedcheddar-4slice",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 8, "var": 2 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-treasurehunter.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-9",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-treasurehunter.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "tuningcylinder-2",
+      "type": "item",
+      "stacksize": 1,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-treasurehunter.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "butchering:sausage-bloodsausage-smoked",
+      "type": "item",
+      "stacksize": 6,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "butchering" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "game:config/tradelists/trader-treasurehunter.json",
+    "path": "/buying/list/-",
+    "value": {
+      "code": "butchering:sausage-blackpudding-smoked",
+      "type": "item",
+      "stacksize": 6,
+      "stock": { "avg": 1, "var": 0.25 },
+      "price": { "avg": 1, "var": 0.25 }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "butchering" } ]
+  }
+]

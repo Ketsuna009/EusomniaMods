@@ -1,0 +1,10 @@
+[
+  {
+  "op": "replace",
+  "file": "wildcrafttree:blocktypes/wood/stumps.json",
+  "path": "/sidesolid/all",
+  "value": true,
+  "side": "Server",
+  "dependsOn": [ { "modid": "wildcrafttree" } ]
+  }
+]

@@ -1,0 +1,168 @@
+[
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/petrified-table.json",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "Carryable",
+      "properties": {
+        "interactDelay": 1.5,
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, -90, 0 ],
+        "slots": { "Hands": {}, "Back": { "rotation": [ 0, 0, -90 ] } }
+      }
+    }
+  },
+
+  {
+    "op": "add",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/bookshelf.json",
+    "path": "/behaviors",
+    "value": [],
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ],
+    "condition": { "when": "carryon:BookshelfEnabled", "isValue": "true" }
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/bookshelf.json",
+    "path": "/behaviors/-",
+    "value": { 
+      "name": "Carryable", 
+      "properties": { 
+        "translation": [ 0, 0, 0.2 ], 
+        "rotation": [ 0, 90, 0 ], 
+        "slots": { 
+          "Hands": {} } } },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ],
+    "condition": { "when": "carryon:BookshelfEnabled", "isValue": "true" }
+  },
+
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/crate.json",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "Carryable",
+      "properties": {
+        "translation": [ 0, 0, 0.2 ],
+        "rotation": [ 0, 90, 0 ],
+        "slots": { 
+          "Hands": {}, 
+          "Back": { "walkSpeedModifier": -0.2, "keepWhenTrue": "carryon:AllowCratesOnBack" } }
+      }
+    },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ],
+    "condition": { "when": "carryon:CrateEnabled", "isValue": "true" }
+  },
+
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door1.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door2.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door3.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door4.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door5.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/door6.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/fencegate.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wood/woodtyped/trapdoor.json",
+    "path": "/behaviors/-",
+    "value": { "name": "CarryableInteract" },
+    "condition": { "when": "carryon:InteractDoorEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+
+  {
+    "op": "add",
+    "file": "wildcrafttree:blocktypes/patches/compatibility/carryon/carrybaskets.json",
+    "path": "/enabled",
+    "value": false,
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  },
+  {
+    "op": "addmerge",
+    "file": "wildcrafttree:blocktypes/wattle/stationarybasket.json",
+    "path": "/behaviors/-",
+    "value": {
+      "name": "Carryable",
+      "properties": {
+        "interactDelay": 0.4,
+        "slots": {
+          "Hands": {
+            "animation": "carryon:holdlight",
+            "walkSpeedModifier": -0.15
+          },
+          "Back": {
+            "walkSpeedModifier": 0.0,
+            "translation": [ 0.09375, 0, 0.03125 ],
+            "rotation": [ 0, 0, -90 ],
+            "scale": 0.6
+          }
+        }
+      }
+    },
+    "condition": { "when": "carryon:ReedBasketEnabled", "isValue": "true" },
+    "side": "Server",
+    "dependsOn": [ { "modid": "carryon" }, { "modid": "wildcrafttree" } ]
+  }
+]

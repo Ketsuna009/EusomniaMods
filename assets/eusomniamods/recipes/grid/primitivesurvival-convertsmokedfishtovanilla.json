@@ -1,18 +1,9 @@
 {
-	"ingredientPattern": "F",
-	"shapeless": true,
-	"ingredients": {
-		"F": {
-			"type": "item",
-			"code": "primitivesurvival:smokedmeat-fish-raw",
-			"quantity": 1,
-		}
-	},
-	"width": 1,
-	"height": 1,
-	"output": {
-		"type": "item",
-		"code": "game:fish-smoked",
-		"quantity": 1,
-	}
+  "ingredientPattern": "F",
+  "shapeless": true,
+  "ingredients": { "F": { "type": "item", "code": "primitivesurvival:smokedmeat-fish-raw", "quantity": 1 } },
+  "width": 1,
+  "height": 1,
+  "output": { "type": "item", "code": "game:fish-smoked", "quantity": 1 },
+  "dependsOn": [ { "modid": "primitivesurvival" } ]
 }

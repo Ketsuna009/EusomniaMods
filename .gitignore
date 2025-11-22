@@ -6,3 +6,8 @@ riderModule.iml
 .vscode/
 .idea/
 EusomniaMods.sln
+.run/
+Releases/
+.prettierrc.json
+.zipignore
+scripts
