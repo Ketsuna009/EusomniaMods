@@ -4,34 +4,39 @@
 		"file": "game:recipes/grid/rawrefractorybrick.json",
 		"path": "/0/enabled",
 		"value": false,
-		"side": "Server"
+		"side": "Server",
+		"enabled": false
 	},
 	{
 		"op": "addmerge",
 		"file": "game:recipes/grid/rawrefractorybrick.json",
 		"path": "/1/enabled",
 		"value": false,
-		"side": "Server"
+		"side": "Server",
+		"enabled": false
 	},
 	{
 		"op": "addmerge",
 		"file": "game:recipes/grid/rawrefractorybrick.json",
 		"path": "/2/enabled",
 		"value": false,
-		"side": "Server"
+		"side": "Server",
+		"enabled": false
 	},
 	{
 		"op": "addmerge",
 		"file": "game:recipes/grid/refractorybrickblock.json",
 		"path": "/enabled",
 		"value": false,
-		"side": "Server"
+		"side": "Server",
+		"enabled": false
 	},
 	{
 		"op": "add",
 		"file": "game:recipes/grid/refractorygratingblock.json",
 		"path": "/0/enabled",
 		"value": false,
-		"side": "Server"
+		"side": "Server",
+		"enabled": false
 	}
 ]

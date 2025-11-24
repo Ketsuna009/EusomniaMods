@@ -2,7 +2,7 @@
 	{
 		"op": "addmerge",
 		"file": "game:config/tradelists/trader-artisan.json",
-		"path": "/buying/list",
+		"path": "/buying/list/-",
 		"value": { 
 				"code": "grog:powder-grog-red",
                 "type": "item",
@@ -22,7 +22,7 @@
 	{
 		"op": "addmerge",
 		"file": "game:config/tradelists/trader-artisan.json",
-		"path": "/buying/list",
+		"path": "/buying/list/-",
 		"value": { 
 				"code": "grog:powder-grog-blue",
                 "type": "item",
@@ -42,7 +42,7 @@
 	{
 		"op": "addmerge",
 		"file": "game:config/tradelists/trader-artisan.json",
-		"path": "/buying/list",
+		"path": "/buying/list/-",
 		"value": { 
 				"code": "grog:powder-grog-fire",
                 "type": "item",

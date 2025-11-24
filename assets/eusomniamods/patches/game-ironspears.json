@@ -3,17 +3,21 @@
     "op": "addeach",
     "file": "game:recipes/smithing/spear.json",
     "path": "/ingredient/allowedVariants/-",
-    "value": [ "iron", "meteoric" ]
+    "value": [ "iron", "meteoriciron" ]
+  },
+  {
+    "op": "addeach",
+    "file": "game:recipes/grid/tool/spear.json",
+    "path": "/ingredients/T/allowedVariants/-",
+    "value": [ "iron", "meteoriciron" ]
   },
 
-  
   {
     "op": "addeach",
     "file": "game:itemtypes/toolhead/spearhead.json",
     "path": "/variantgroups/0/states/-",
-    "value": [ "iron", "meteoric" ]
+    "value": [ "iron", "meteoriciron" ]
   },
-  
   {
     "op": "addmerge",
     "file": "game:itemtypes/toolhead/spearhead.json",
@@ -23,22 +27,117 @@
   {
     "op": "addmerge",
     "file": "game:itemtypes/toolhead/spearhead.json",
-    "path": "/shapeByType/spearhead-meteoric",
+    "path": "/shapeByType/spearhead-meteoriciron",
     "value": { "base": "game:item/tool/spear/spearhead-metal" }
-  },
-  
-  
-  {
-    "op": "addeach",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/variantgroups/1/states/-",
-    "value": [ "iron", "meteoric" ]
   },
 
   {
     "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "frompath": "/guiTransformByType/*",
+    "path": "/eusomniamodstemp"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/guiTransformByType/@*-(iron|meteoriciron)",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": 43, "y": 28, "z": -59 },
+      "origin": { "x": 0.45, "y": 0.02, "z": 0.5 },
+      "scale": 3.51
+    }
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/guiTransformByType/*",
+    "frompath": "/eusomniamodstemp"
+  },
+
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "frompath": "/fpHandTransformByType/*",
+    "path": "/eusomniamodstemp"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/fpHandTransformByType/@*-(iron|meteoriciron)",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -23, "y": 127, "z": 81 },
+      "origin": { "x": 0.5, "y": 0.06, "z": 0.51 },
+      "scale": 2.5
+    }
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/fpHandTransformByType/*",
+    "frompath": "/eusomniamodstemp"
+  },
+
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "frompath": "/tpHandTransformByType/*",
+    "path": "/eusomniamodstemp"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/tpHandTransformByType/@*-(iron|meteoriciron)",
+    "value": {
+      "translation": { "x": -0.8, "y": -0.1, "z": -0.6 },
+      "rotation": { "x": -19, "y": -22, "z": -22 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.82
+    }
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/tpHandTransformByType/*",
+    "frompath": "/eusomniamodstemp"
+  },
+
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "frompath": "/groundTransformByType/*",
+    "path": "/eusomniamodstemp"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/groundTransformByType/@*-(iron|meteoriciron)",
+    "value": {
+      "translation": { "x": -0.8, "y": -0.1, "z": -0.6 },
+      "rotation": { "x": -19, "y": -22, "z": -22 },
+      "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+      "scale": 0.82
+    }
+  },
+  {
+    "op": "move",
+    "file": "game:itemtypes/toolhead/spearhead.json",
+    "path": "/groundTransformByType/*",
+    "frompath": "/eusomniamodstemp"
+  },
+
+  {
+    "op": "addeach",
     "file": "game:itemtypes/tool/spear.json",
-    "frompath": "/shapeByType/*-ruined",
+    "path": "/variantgroups/1/states/-",
+    "value": [ "iron", "meteoriciron" ]
+  },
+
+  { 
+    "op": "move", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "frompath": "/shapeByType/*-ruined", 
     "path": "/eusomniamodstemp"
   },
   {
@@ -50,13 +149,13 @@
   {
     "op": "addmerge",
     "file": "game:itemtypes/tool/spear.json",
-    "path": "/shapeByType/spear-generic-meteoric",
-    "value": { "base": "eusomniamods:item/tool/spear/meteoric" }
+    "path": "/shapeByType/spear-generic-meteoriciron",
+    "value": { "base": "eusomniamods:item/tool/spear/meteoriciron" }
   },
-  {
-    "op": "move",
-    "file": "game:itemtypes/tool/spear.json",
-    "frompath": "/eusomniamodstemp",
+  { 
+    "op": "move", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "frompath": "/eusomniamodstemp", 
     "path": "/shapeByType/*-ruined"
   },
 
@@ -66,16 +165,16 @@
     "frompath": "/texturesByType/spear-generic-*",
     "path": "/eusomniamodstemp"
   },
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/texturesByType/spear-generic-iron",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/texturesByType/spear-generic-iron", 
     "value": {}
   },
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/texturesByType/spear-generic-meteoric",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/texturesByType/spear-generic-meteoriciron", 
     "value": {}
   },
   {
@@ -84,71 +183,70 @@
     "frompath": "/eusomniamodstemp",
     "path": "/texturesByType/spear-generic-*"
   },
-  
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/attackpowerbytype/spear-generic-iron",
+
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/attackpowerbytype/spear-generic-iron", 
     "value": 4.25
   },
   {
     "op": "addmerge",
     "file": "game:itemtypes/tool/spear.json",
-    "path": "/attackpowerbytype/spear-generic-meteoric",
+    "path": "/attackpowerbytype/spear-generic-meteoriciron",
     "value": 4.5
   },
 
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/attributes/damageByType/*-iron",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/attributes/damageByType/*-iron", 
     "value": 8.25
   },
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/attributes/damageByType/*-meteoric",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/attributes/damageByType/*-meteoriciron", 
     "value": 8.5
   },
 
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/attributes/damageTierByType/*-iron",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/attributes/damageTierByType/*-iron", 
     "value": 0
   },
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/attributes/damageTierByType/*-meteoric",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/attributes/damageTierByType/*-meteoriciron", 
     "value": 0
   },
-  
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/durabilitybytype/spear-generic-iron",
+
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/durabilitybytype/spear-generic-iron", 
     "value": 320
   },
-  {
-    "op": "addmerge",
-    "file": "game:itemtypes/tool/spear.json",
-    "path": "/durabilitybytype/spear-generic-meteoric",
+  { 
+    "op": "addmerge", 
+    "file": "game:itemtypes/tool/spear.json", 
+    "path": "/durabilitybytype/spear-generic-meteoriciron", 
     "value": 360
   },
 
-  
   {
     "op": "addeach",
     "file": "game:entities/nonliving/projectile/spear.json",
     "path": "/allowedVariants/-",
-    "value": [ "iron", "meteoric" ]
+    "value": [ "iron", "meteoriciron" ]
   },
   {
     "op": "addeach",
     "file": "game:entities/nonliving/projectile/spear.json",
     "path": "/variantgroups/1/states/-",
-    "value": [ "iron", "meteoric" ]
+    "value": [ "iron", "meteoriciron" ]
   },
 
   {
@@ -172,8 +270,8 @@
   {
     "op": "addmerge",
     "file": "game:entities/nonliving/projectile/spear.json",
-    "path": "/client/shapeByType/spear-generic-meteoric",
-    "value": { "base": "eusomniamods:item/tool/spear/meteoric" }
+    "path": "/client/shapeByType/spear-generic-meteoriciron",
+    "value": { "base": "eusomniamods:item/tool/spear/meteoriciron" }
   },
   {
     "op": "move",
@@ -209,7 +307,7 @@
   {
     "op": "addmerge",
     "file": "game:entities/nonliving/projectile/spear.json",
-    "path": "/client/texturesByType/spear-generic-meteoric",
+    "path": "/client/texturesByType/spear-generic-meteoriciron",
     "value": {}
   },
   {

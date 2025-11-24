@@ -5,6 +5,7 @@
 		"path": "/enabled",
 		"value": "false",
 		"side": "Server",
-		"dependsOn": [ { "modid": "grog" } ]
+		"dependsOn": [ { "modid": "grog" } ],
+		"enabled": false
 	}
 ]
