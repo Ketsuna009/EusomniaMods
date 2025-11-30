@@ -1,0 +1,486 @@
+{
+  "code": "humanoid-trader-gardener",
+  "class": "EntityVillager",
+  "tags": [ "humanoid", "villager", "huntable", "human", "habitat-land" ],
+  "weight": 80,
+  "canClimb": true,
+  "deadHitboxSize": { "x": 0.75, "y": 0.5 },
+  "hitboxSize": { "x": 0.6, "y": 1.75 },
+  "variantGroups": [ { "code": "gender", "states": [ "male", "female" ] } ],
+  "behaviorConfigs": {
+    "nametag": { "showtagonlywhentargeted": true, "triggeredNameReveal": true, "unrevealedDisplayName": "nametag-eusomniatrader-unrevealedname" },
+    "conversable": { "dialogue": "config/dialogue/trader-gardener", "approachPlayer": true }
+  },
+  "attributes": {
+    "tradePropsFile": "config/tradelists/eusomniatrader-gardener.json",
+    "voiceSoundsByType": {
+      "*-male": [
+        "sounds/voice/duduk/",
+        "sounds/voice/harp/",
+        "sounds/voice/oboe/",
+        "sounds/voice/ocarina/",
+        "sounds/voice/trumpet/",
+        "sounds/voice/tuba/"
+      ],
+      "*-female": [ 
+        "sounds/voice/altoflute/", 
+        "sounds/voice/harp/", 
+        "sounds/voice/oboe/", 
+        "sounds/voice/ocarina/", 
+        "sounds/voice/duduk/"
+      ]
+    },
+    "personalityByType": { "*": "balanced" },
+    "personalities": { "balanced": { "chordDelayMul": 1.3, "pitchModifier": 0.7, "volumeModifier": 1.1 } },
+    "outfitConfigFileNameByType": { "*": "eusomniatraderaccessories-{gender}" },
+    "shouldSwivelFromMotion": true
+  },
+  "client": {
+    "renderer": "Shape",
+    "shapeByType": { "*": { "base": "game:entity/humanoid/villager-{gender}" } },
+    "animations": [
+      { "code": "idle", "animation": "idle", "blendMode": "Average", "triggeredBy": { "defaultAnim": true } },
+      { "code": "sleep", "animation": "lie", "blendMode": "Add" },
+      { "code": "die", "animation": "die", "animationSpeed": 1.75, "weight": 10, "blendMode": "AddAverage" },
+      { "code": "hurt", "animation": "hurt", "animationSpeed": 2, "blendMode": "AddAverage" },
+      { code: "welcome", "animation": "balanced-greet", "blendMode": "Average"},
+      { "animation": "balanced-walk", "blendMode": "Average" },
+      {
+        "animation": "balanced-hit",
+        "blendMode": "AddAverage",
+        "animationSpeed": 0.7,
+        "animationSound": { "frame": 5, "location": "effect/anvilhit*" }
+      },
+      { "animation": "balanced-run", "blendMode": "Average" },
+      { "animation": "balanced-sitfloor", "blendMode": "Average" },
+      { "animation": "balanced-sitedge", "blendMode": "Average" },
+      { "animation": "balanced-sitchair", "blendMode": "Average" },
+      { "animation": "balanced-sitchairtable", "blendMode": "Average" },
+      { "animation": "balanced-lie", "blendMode": "Average" },
+      {
+        "animation": "balanced-spindle-spinsit",
+        "blendMode": "Add",
+        "elementWeight": { "UpperArmR": 100, "LowerArmR": 100, "UpperArmL": 100, "LowerArmL": 100 },
+        "elementBlendMode": { "UpperArmR": "AddAverage", "LowerArmR": "AddAverage", "UpperArmL": "AddAverage", "LowerArmL": "AddAverage" }
+      },
+      {
+        "animation": "balanced-holdbothhands",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-bowl-eatsittable",
+        "blendMode": "Add",
+        "elementWeight": {
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-mug-stand",
+        "blendMode": "Add",
+        "elementWeight": {
+          "Origin": 100,
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "Origin": "AddAverage",
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-mug-standdrink",
+        "blendMode": "Add",
+        "elementWeight": {
+          "Origin": 100,
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "Origin": "AddAverage",
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-mug-tablesit",
+        "blendMode": "Add",
+        "elementWeight": {
+          "Origin": 100,
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "Origin": "AddAverage",
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-mug-tablesitdrink",
+        "blendMode": "Add",
+        "elementWeight": {
+          "UpperTorso": 200,
+          "UpperArmRHelper": 200,
+          "UpperArmR": 200,
+          "LowerArmRHelper": 200,
+          "LowerArmR": 200,
+          "UpperArmLHelper": 200,
+          "UpperArmL": 200,
+          "LowerArmLHelper": 200,
+          "LowerArmL": 200
+        },
+        "elementBlendMode": {
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-pipe-sitchair",
+        "blendMode": "Add",
+        "elementWeight": {
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-jugglingballs-juggle",
+        "blendMode": "Add",
+        "elementWeight": {
+          "BallRblueORIGIN": 200,
+          "BallRredORIGIN": 200,
+          "BallLyellowORIGIN": 200,
+          "UpperTorso": 200,
+          "UpperArmRHelper": 200,
+          "UpperArmR": 200,
+          "LowerArmRHelper": 200,
+          "LowerArmR": 200,
+          "UpperArmLHelper": 200,
+          "UpperArmL": 200,
+          "LowerArmLHelper": 200,
+          "LowerArmL": 200
+        },
+        "elementBlendMode": {
+          "BallRblueORIGIN": "AddAverage",
+          "BallRredORIGIN": "AddAverage",
+          "BallLyellowORIGIN": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-torch-hold",
+        "blendMode": "Add",
+        "elementWeight": { "UpperArmLHelper": 90, "UpperArmL": 90, "LowerArmLHelper": 90 },
+        "elementBlendMode": { "UpperArmLHelper": "AddAverage", "UpperArmL": "AddAverage", "LowerArmLHelper": "AddAverage" }
+      },
+      {
+        "animation": "hurdygurdy-bow",
+        "blendMode": "Add",
+        "elementWeight": { "BeltAttachment": 100 },
+        "elementBlendMode": { "BeltAttachment": "AddAverage" }
+      },
+      { "animation": "balanced-hoe-till", "blendMode": "Average", "animationSound": { "frame": 19, "location": "block/dirt*" } },
+      { "animation": "elderbalanced-walk", "blendMode": "Average" },
+      { "animation": "elderbalanced-run", "blendMode": "Average" },
+      { "animation": "elderbalanced-walk", "blendMode": "Average" },
+      { "animation": "elderbalanced-sitfloor", "blendMode": "Average" },
+      { "animation": "elderbalanced-sitedge", "blendMode": "Average" },
+      { "animation": "elderbalanced-sitchair", "blendMode": "Average" },
+      { "animation": "elderbalanced-sitchairtable", "blendMode": "Average" },
+      { "animation": "elderbalanced-lie", "blendMode": "Average" },
+      { "animation": "elderbalanced-sitfloor", "blendMode": "Average" },
+      {
+        "animation": "balanced-hammer-forge",
+        "blendMode": "Add",
+        "animationSound": { "frame": 10, "location": "effect/anvilhit*" },
+        "elementWeight": {
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      },
+      {
+        "animation": "balanced-spear-attack",
+        "blendMode": "Add",
+        "animationSound": { "frame": 25, "location": "tool/slash" },
+        "elementWeight": {
+          "Neck": 100,
+          "Head": 100,
+          "LowerTorso": 100,
+          "UpperTorso": 100,
+          "UpperArmRHelper": 100,
+          "UpperArmR": 100,
+          "LowerArmRHelper": 100,
+          "LowerArmR": 100,
+          "UpperArmLHelper": 100,
+          "UpperArmL": 100,
+          "LowerArmLHelper": 100,
+          "LowerArmL": 100
+        },
+        "elementBlendMode": {
+          "Neck": "AddAverage",
+          "Head": "AddAverage",
+          "LowerTorso": "AddAverage",
+          "UpperTorso": "AddAverage",
+          "UpperArmRHelper": "AddAverage",
+          "LowerArmRHelper": "AddAverage",
+          "UpperArmR": "AddAverage",
+          "LowerArmR": "AddAverage",
+          "UpperArmLHelper": "AddAverage",
+          "LowerArmLHelper": "AddAverage",
+          "UpperArmL": "AddAverage",
+          "LowerArmL": "AddAverage"
+        }
+      }
+    ],
+    "behaviors": [
+      { "code": "villagerinventory" },
+      { "code": "nametag", "showtagonlywhentargeted": true },
+      { "code": "repulseagents" },
+      { "code": "controlledphysics", "stepHeight": 1.01 },
+      { "code": "interpolateposition" },
+      { "code": "conversable" }
+    ]
+  },
+  "server": {
+      "attributes": { "pathfinder": { "minTurnAnglePerSec": 720, "maxTurnAnglePerSec": 1440 } },
+      "behaviors": [
+        { "code": "villagerinventory" },
+        {
+          "code": "nametag",
+          "showtagonlywhentargeted": true,
+          "selectFromRandomNameByType": {
+            "*-male": [ "Zoffy", "William", "Calhoun", "Nicolo", "Jared", "Casper", "Valdemar", "Bajen" ],
+            "*-female": [ "Yvette", "Gretchen", "Hilda", "Sarah", "Molly", "Yadira", "Grace", "Brianna" ]
+          }
+        },
+        { "code": "repulseagents" },
+        { "code": "controlledphysics", "stepHeight": 1.05 },
+        { "code": "reviveondeath", "minHours": 24, "maxHours": 72 },
+        { "code": "health", "currenthealth": 1000, "maxhealth": 1000 },
+        {
+          "code": "emotionstates",
+          "states": [
+            { "code": "aggressiveondamage", "duration": 6, "chance": 0.6, "slot": 0, "priority": 2, "accumType": "noaccum" },
+            { "code": "fleeondamage", "duration": 10, "chance": 0.4, "slot": 0, "priority": 1, "accumType": "max" }
+          ]
+        },
+        {
+          "code": "taskai",
+          "aitasks": [
+            {
+              "code": "meleeattack",
+              "entityCodes": [ "player" ],
+              "priority": 2,
+              "damage": 5,
+              "mincooldown": 2500,
+              "maxcooldown": 3500,
+              "attackDurationMs": 900,
+              "damagePlayerAtMs": 300,
+              "animation": "hit",
+              "animationSpeed": 2,
+              "whenInEmotionState": "aggressiveondamage"
+            },
+            {
+              "code": "seekentity",
+              "entityCodes": [ "player" ],
+              "priority": 1.5,
+              "mincooldown": 1000,
+              "maxcooldown": 1500,
+              "seekingRange": 20,
+              "movespeed": 0.035,
+              "animation": "Run",
+              "animationSpeed": 1.75,
+              "whenInEmotionState": "aggressiveondamage"
+            },
+            {
+              "code": "fleeentity",
+              "entityCodes": [ "player" ],
+              "priority": 1.5,
+              "movespeed": 0.035,
+              "seekingRange": 12,
+              "animation": "Run",
+              "animationSpeed": 1.75,
+              "whenInEmotionState": "fleeondamage"
+            },
+            {
+              "code": "idle",
+              "priority": 1.2,
+              "minduration": 2500,
+              "maxduration": 2500,
+              "mincooldown": 2000,
+              "maxcooldown": 10000,
+              "animation": "laugh"
+            },
+            {
+              "code": "idle",
+              "priority": 1.2,
+              "minduration": 2500,
+              "maxduration": 2500,
+              "mincooldown": 5000,
+              "maxcooldown": 30000,
+              "animation": "idle"
+            },
+            {
+              "code": "wander",
+              "priority": 1,
+              "movespeed": 0.01,
+              "animation": "Walk",
+              "wanderChance": 0.005,
+              "maxDistanceToSpawn": 12,
+              "wanderRangeMin": 1,
+              "wanderRangeMax": 3
+            },
+            { "code": "lookaround", "priority": 0.5 }
+          ]
+        },
+        { "code": "conversable" },
+        { "code": "entitystatetags" }
+      ]
+    },
+  "sounds": {}
+  }
+

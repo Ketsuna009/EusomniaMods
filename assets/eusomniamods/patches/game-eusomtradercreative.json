@@ -1,0 +1,16 @@
+[
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/creature.json",
+    "path": "/variantgroups/0/states/-",
+    "value": "humanoid-trader-gardener-male",
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "file": "game:itemtypes/creature.json",
+    "path": "/variantgroups/0/states/-",
+    "value": "humanoid-trader-gardener-female",
+    "side": "Server"
+  }
+]

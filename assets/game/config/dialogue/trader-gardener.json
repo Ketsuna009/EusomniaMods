@@ -1,0 +1,177 @@
+{
+  components: [
+    {
+      code: "testnewtrader",
+      owner: "gardener",
+      type: "condition",
+      variable: "entity.hasmet",
+      isNotValue: "true",
+      thenJumpTo: "firstmeet",
+      elseJumpTo: "welcomeback"
+    },
+    {
+      code: "firstmeet",
+      owner: "gardener",
+      type: "talk",
+      setVariables: { "entity.hasmet": "true" },
+      text: [
+        { value: "Hello! Have we met?" },
+      ],
+    },
+    {
+      code: "firstmeetresponse",
+      owner: "player",
+      type: "talk",
+      setVariables: { "player.hasmet": "true" },
+      text: [
+        { value: "I don't think so.", jumpTo: "newneighbors" },
+        { value: "game:dialogue-trader-nochatter", jumpTo: "opentrade" },
+      ],
+    },
+    {
+      code: "newneighbors",
+      owner: "gardener",
+      type: "talk",
+      trigger: "revealname",
+      text: [
+        { value: "Well, nice to meet you new neighbor! My name is {{npcname}}" }
+      ]
+    },
+    {
+      code: "newneighborsresponse",
+      owner: "player",
+      type: "talk",
+      text: [
+        { value: "Nice to meet you, my name is {{playername}}!", jumpTo: "nicetomeet" },
+        { value: "Hello, I'm {{playername}}", jumpTo: "nicetomeet" },
+        { value: "Nice to meet you.", jumptTo: "noname"},
+        { value: "...", jumpTo: "dionus"}
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "nicetomeet",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "{{playername}}, I'll try to remember that." },
+        { value: "{{playername}}, got it." },
+        { value: "{{playername}} is a lovely name!" }
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "noname",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "Oh, do you have a name?" }
+      ]
+    },
+    {
+      code: "nonameresponse",
+      owner: "player",
+      type: "talk",
+      text: [
+        { value: "Oh right, it's {{playername}}", jumpTo: "nicetomeet" },
+        { value: "No.", jumpTo: "awkward" }
+      ]
+    },
+    {
+      code: "awkward",
+      owner: "gardener",
+      type: "talk",
+      text: [ 
+        { value: "Oh. I guess that's fine." } 
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "dionus",
+      owner: "gardener",
+      type: "talk",
+      text: [ 
+        { value: "You must be Diony, right? I've heard so much about you from Aster! I hope we can be friends." } 
+      ]
+    },
+    {
+      code: "dionusresponse",
+      owner: "player",
+      type: "talk",
+      text: [
+        { value: "Err... no. I'm just awkward.", jumpTo: "noname" },
+        { value: "Mmh.", jumpTo: "main"}
+      ]
+    },
+    {
+      code: "welcomeback",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "Hello again {{playername}}! What can I do for you?" }
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "main",
+      owner: "player",
+      type: "talk",
+      text: [
+        { value: "Got anything to trade, {{npcname}}?", jumpTo: "opentrade" },
+        { value: "dialogue-name", jumpTo: "name" },
+        { value: "What kinds of things do you sell?", jumpTo: "selling" },
+        { value: "What will you be buying?", jumpTo: "buying" }
+      ]
+    },
+    {
+      code: "selling",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "I change my stock regularly. Usually I sell plants I get from back south, but I thought I might sometimes sell some fruits from plants that are harder to grow here." }
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "buying",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "Oh you know, gardening stuff like pots and fertilizers. Sometimes I need new shears. And of course, my favorite foods." }
+      ],
+    },
+    {
+      code: "buyingresponse",
+      owner: "player",
+      type: "talk",
+      text: [
+        { value: "I guess that's expected.", jumpTo: "main" },
+        { value: "What are your favorite foods?", jumpTo: "favoritefoods"}
+      ]
+    },
+    {
+      code: "favoritefoods",
+      owner: "gardener",
+      type: "talk",
+      text: [
+        { value: "Nuts! Hazelnuts, cashews, and pistachios to be specific. I like nutbars with a little salt mixed in. Honestly, I can't really help myself around most sweets. And I love mushroom beers!" }
+      ],
+      jumpTo: "main"
+    },
+    {
+      code: "opentrade",
+      owner: "gardener",
+      trigger: "opentrade"
+    },
+    {
+      code: "name",
+      owner: "gardener",
+      type: "talk",
+      trigger: "revealname",
+      text: [
+        { value: "Uhmm... It's {{npcname}}." }
+      ],
+      jumpTo: "main"
+    }
+  ]
+}

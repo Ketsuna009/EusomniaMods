@@ -10,6 +10,12 @@
   "game:item-spear-generic-meteoriciron": "Meteoric iron spear",
   "game:item-spearhead-iron": "Iron spear head",
   "game:item-spearhead-meteoriciron": "Meteoric iron spear head",
+  
+  "game:tradingwindow-humanoid-trader-gardener-male": "{0} the gardener" ,
+  "game:tradingwindow-humanoid-trader-gardener-female": "{0} the gardener",
+  "game:item-creature-humanoid-trader-gardener-male": "Eusomnia gardening trader male",
+  "game:item-creature-humanoid-trader-gardener-female": "Eusomnia gardening trader female",
+  "game:nametag-eusomniatrader-unrevealedname": "Hector's cousin",
 	
   "eusomniamods:item-dye-saffronyellow": "Saffron yellow dye",
   "eusomniamods:incontainer-item-dye-saffronyellow": "Saffron yellow dye"

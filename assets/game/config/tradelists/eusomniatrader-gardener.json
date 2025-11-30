@@ -1,0 +1,457 @@
+{
+  "money": { "avg": 35, "var": 10 },
+  "selling": {
+    "maxItems": 14,
+    "list": [
+      {
+        "code": "wildcraftfruit:clipping-pistachio-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcraftfruit:clipping-marita-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcraftfruit:clipping-pricklyheath-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcraftfruit:clipping-numnum-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcraftfruit:clipping-flaxlily-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcraftfruit:clipping-seamango-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:vineclipping-passionfruit-green",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcrafttree:sapling-dalbergia-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-eucalyptus-free",
+        "type": "block",
+        "stacksize": 1,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 6, "var": 1.5 }
+      },
+      {
+        "code": "wildcrafttree:sapling-heather-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-mousetrap-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-spurgetree-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-umnini-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-azobe-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-guajacum-free",
+        "type": "block",
+        "stacksize": 1,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 6, "var": 1.5 }
+      },
+      {
+        "code": "wildcrafttree:sapling-ghostgum-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-mahogany-free",
+        "type": "block",
+        "stacksize": 1,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 5, "var": 1.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-tigerwood-free",
+        "type": "block",
+        "stacksize": 2,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "wildcrafttree:sapling-mangrove-free",
+        "type": "block",
+        "stacksize": 3,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcrafttree:sapling-sal-free",
+        "type": "block",
+        "stacksize": 3,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcrafttree:sapling-jacaranda-free",
+        "type": "block",
+        "stacksize": 3,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "wildcrafttree:sapling-banyan-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-tamanu-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-sapele-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:sapling-ohia-free",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 6, "var": 1.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "compatlayer:herbseed-rockrose",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 5, "var": 1.5 }
+      },
+      {
+        "code": "compatlayer:herbseed-angelica",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 5, "var": 1.5 }
+      },
+      {
+        "code": "compatlayer:herbseed-horehound",
+        "type": "item",
+        "stacksize": 2,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 5, "var": 1.5 }
+      },
+      {
+        "code": "wildcraftfruit:fruit-cocoa",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 16, "var": 4 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:nut-acorn",
+        "type": "item",
+        "stacksize": 8,
+        "stock": { "avg": 8, "var": 2 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcraftfruit:nut-almond",
+        "type": "item",
+        "stacksize": 8,
+        "stock": { "avg": 8, "var": 2 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcraftfruit:fruit-cashewwhole",
+        "type": "item",
+        "stacksize": 8,
+        "stock": { "avg": 8, "var": 2 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcraftfruit:fruit-jackfruit",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:fruit-lemon",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:fruit-lime",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      }
+    ]
+  },
+  "buying": {
+    "maxItems": 14,
+    "list": [
+      {
+        "code": "game:shears-tinbronze",
+        "type": "item",
+        "stacksize": 1,
+        "stock": { "avg": 1, "var": 0.25 },
+        "price": { "avg": 4, "var": 1 }
+      },
+      {
+        "code": "game:shears-bismuthbronze",
+        "type": "item",
+        "stacksize": 1,
+        "stock": { "avg": 1, "var": 0.25 },
+        "price": { "avg": 5, "var": 1.25 }
+      },
+      {
+        "code": "game:shears-blackbronze",
+        "type": "item",
+        "stacksize": 1,
+        "stock": { "avg": 1, "var": 0.25 },
+        "price": { "avg": 6, "var": 1.5 }
+      },
+      {
+        "code": "wildcraftfruit:nut-hazelbar",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:nut-cashewbar",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:nut-pistachiobar",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "wildcraftfruit:nut-halva",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcraftfruit:nut-marzipan",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 4, "var": 1 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcraftfruit:nut-nutchocolate",
+        "type": "item",
+        "stacksize": 4,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "pemmican:caramel-cooked",
+        "type": "item",
+        "stacksize": 8,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 2, "var": 0.5 }
+      },
+      {
+        "code": "game:jug-blue-fired",
+        "type": "block",
+        "stacksize": 1,
+        "stock": { "avg": 1, "var": 0.25 },
+        "price": { "avg": 3, "var": 0.75 },
+        "attributes": { "type": "item", "code": "pemmican:beer-forest", "makefull": true }
+      },
+      {
+        "code": "game:jug-blue-fired",
+        "type": "block",
+        "stacksize": 1,
+        "stock": { "avg": 1, "var": 0.25 },
+        "price": { "avg": 3, "var": 0.75 },
+        "attributes": { "type": "item", "code": "pemmican:beer-ale", "makefull": true }
+      },
+      {
+        "code": "foodshelves:cutice",
+        "type": "item",
+        "stacksize": 8,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "wildcrafttree:mulch",
+        "type": "item",
+        "stacksize": 128,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "game:bonemeal",
+        "type": "item",
+        "stacksize": 64,
+        "stock": { "avg": 3, "var": 0.75 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "game:saltpeter",
+        "type": "item",
+        "stacksize": 32,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "game:potash",
+        "type": "item",
+        "stacksize": 16,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "game:compost",
+        "type": "item",
+        "stacksize": 16,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 1, "var": 0.25 }
+      },
+      {
+        "code": "primitivesurvival:earthwormcastings",
+        "type": "item",
+        "stacksize": 16,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:flowerpot-orange-fired",
+        "type": "block",
+        "stacksize": 8,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:flowerpot-cream-fired",
+        "type": "block",
+        "stacksize": 8,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:flowerpot-brown-fired",
+        "type": "block",
+        "stacksize": 8,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:clayplanter-orange-fired",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:clayplanter-cream-fired",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        "code": "game:clayplanter-brown-fired",
+        "type": "block",
+        "stacksize": 4,
+        "stock": { "avg": 2, "var": 0.5 },
+        "price": { "avg": 3, "var": 0.75 }
+      },
+      {
+        code: "game:clothes-head-bamboo-conehat",
+        type: "item",
+        stacksize: 1,
+        stock: { avg: 1, var: 0.25 },
+        price: { avg: 2, var: 0.5 }
+      },
+      {
+        code: "game:clothes-hand-heavy-leather-gloves",
+        type: "item",
+        stacksize: 1,
+        stock: { avg: 1, var: 0.25 },
+        price: { avg: 3, var: 0.75 }
+      },
+      {
+        code: "game:clothes-shoulder-blacksmith-apron",
+        type: "item",
+        stacksize: 1,
+        stock: { avg: 1, var: 0.25 },
+        price: { avg: 4, var: 1 }
+      }
+      
+    ]
+  }
+}

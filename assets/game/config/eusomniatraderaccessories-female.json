@@ -1,0 +1,496 @@
+{
+  "variants": {
+    "skin-face-normal1": { "base": "game:entity/humanoid/villager/face/female/normal1", "weight": 1 },
+    "skin-face-normal2": { "base": "game:entity/humanoid/villager/face/female/normal2", "weight": 1 },
+    "skin-face-normal3": { "base": "game:entity/humanoid/villager/face/female/normal3", "weight": 1 },
+    "skin-face-normal4": { "base": "game:entity/humanoid/villager/face/female/normal4", "weight": 1 },
+    "skin-face-normal5": { "base": "game:entity/humanoid/villager/face/female/normal5", "weight": 1 },
+    "skin-face-normal6": { "base": "game:entity/humanoid/villager/face/female/normal6", "weight": 1 },
+    "skin-face-normal7": { "base": "game:entity/humanoid/villager/face/female/normal7", "weight": 1 },
+
+    "hair-00": { "base": "game:entity/humanoid/villager/hair-base/00", "weight": 1 },
+    "hair-02": { "base": "game:entity/humanoid/villager/hair-base/02", "weight": 1 },
+    "hair-03": { "base": "game:entity/humanoid/villager/hair-base/03", "weight": 1 },
+    "hair-04": { "base": "game:entity/humanoid/villager/hair-base/04-crown", "weight": 1 },
+    "hair-05": { "base": "game:entity/humanoid/villager/hair-base/05", "weight": 1 },
+    "hair-06": { "base": "game:entity/humanoid/villager/hair-base/06-long", "weight": 1 },
+    "hair-07": { "base": "game:entity/humanoid/villager/hair-base/07", "weight": 1 },
+    "hair-08": { "base": "game:entity/humanoid/villager/hair-base/08", "weight": 1 },
+    "hair-09": { "base": "game:entity/humanoid/villager/hair-base/09", "weight": 1 },
+    "hair-10": { "base": "game:entity/humanoid/villager/hair-base/10", "weight": 1 },
+    "hair-11": { "base": "game:entity/humanoid/villager/hair-base/11", "weight": 1 },
+    "hair-13": { "base": "game:entity/humanoid/villager/hair-base/13-long-shoulder", "weight": 1 },
+    "hair-14": { "base": "game:entity/humanoid/villager/hair-base/14", "weight": 1 },
+    "hair-16": { "base": "game:entity/humanoid/villager/hair-base/16", "weight": 1 },
+    "hair-17": { "base": "game:entity/humanoid/villager/hair-base/17", "weight": 1 },
+    "hair-19": { "base": "game:entity/humanoid/villager/hair-base/19-pigtails", "weight": 1 },
+    "hair-20": { "base": "game:entity/humanoid/villager/hair-base/20-pigtails-long", "weight": 1 },
+    "hair-21": { "base": "game:entity/humanoid/villager/hair-base/21-pigtails-long-back", "weight": 1 },
+    "hair-22": { "base": "game:entity/humanoid/villager/hair-base/22-pigtails-medium", "weight": 1 },
+    "hair-long-braid1": { "base": "game:entity/humanoid/villager/hair-base/long-braid1", "weight": 1 },
+    "hair-long-braid2": { "base": "game:entity/humanoid/villager/hair-base/long-braid2", "weight": 1 },
+    "hair-long-combed": { "base": "game:entity/humanoid/villager/hair-base/long-combed", "weight": 1 },
+    "hair-long-dreads": { "base": "game:entity/humanoid/villager/hair-base/long-dreads", "weight": 1 },
+    "hair-long-dreads2": { "base": "game:entity/humanoid/villager/hair-base/long-dreads2", "weight": 1 },
+    "hair-long-loose": { "base": "game:entity/humanoid/villager/hair-base/long-loose", "weight": 1 },
+    "hair-long-strands": { "base": "game:entity/humanoid/villager/hair-base/long-strands", "weight": 1 },
+    "hair-medium-afro": { "base": "game:entity/humanoid/villager/hair-base/medium-afro", "weight": 1 },
+    "hair-medium-basic": { "base": "game:entity/humanoid/villager/hair-base/medium-basic", "weight": 1 },
+    "hair-medium-layered": { "base": "game:entity/humanoid/villager/hair-base/medium-layered", "weight": 1 },
+    "hair-medium-pigtails": { "base": "game:entity/humanoid/villager/hair-base/medium-pigtails", "weight": 1 },
+    "hair-medium-ponytail": { "base": "game:entity/humanoid/villager/hair-base/medium-ponytail", "weight": 1 },
+    "hair-medium-snood": { "base": "game:entity/humanoid/villager/hair-base/medium-snood", "weight": 1 },
+    "hair-medium-spiky": { "base": "game:entity/humanoid/villager/hair-base/medium-spiky", "weight": 1 },
+    "hair-short-bangs": { "base": "game:entity/humanoid/villager/hair-base/short-bangs", "weight": 1 },
+    "hair-short-braidedup": { "base": "game:entity/humanoid/villager/hair-base/short-braidedup", "weight": 1 },
+    "hair-short-sidebraids1": { "base": "game:entity/humanoid/villager/hair-base/short-sidebraids1", "weight": 1 },
+    "hair-short-topbun": { "base": "game:entity/humanoid/villager/hair-base/short-topbun", "weight": 1 },
+
+    "arm-barber-pouch": { "base": "game:entity/humanoid/villageraccessories/arm/barber-pouch", "weight": 1 },
+    "arm-bronze-lapis-bracelet": { "base": "game:entity/humanoid/villageraccessories/arm/bronze-lapis-bracelet", "weight": 1 },
+    "arm-copper-armlet": { "base": "game:entity/humanoid/villageraccessories/arm/copper-armlet", "weight": 1 },
+    "arm-copper-lapis-bracelet": { "base": "game:entity/humanoid/villageraccessories/arm/copper-lapis-bracelet", "weight": 1 },
+    "arm-coral-bracelet": { "base": "game:entity/humanoid/villageraccessories/arm/coral-bracelet", "weight": 1 },
+    "arm-peasant-bracer": { "base": "game:entity/humanoid/villageraccessories/arm/peasant-bracer", "weight": 1 },
+    "arm-seashell-bracelet": { "base": "game:entity/humanoid/villageraccessories/arm/seashell-bracelet", "weight": 1 },
+
+    "neck-acacia-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/acacia-amulet", "weight": 1 },
+    "neck-bamboo-seed-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/bamboo-seed-amulet", "weight": 1 },
+    "neck-copper-lapis-necklace": { "base": "game:entity/humanoid/villageraccessories/neck/female/copper-lapis-necklace", "weight": 1 },
+    "neck-ebony-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/ebony-amulet", "weight": 1 },
+    "neck-kapok-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/kapok-amulet", "weight": 1 },
+    "neck-lapis-necklace": { "base": "game:entity/humanoid/villageraccessories/neck/female/lapis-necklace", "weight": 1 },
+    "neck-necklace-coral": { "base": "game:entity/humanoid/villageraccessories/neck/female/necklace-coral", "weight": 1 },
+    "neck-necklace-seashells": { "base": "game:entity/humanoid/villageraccessories/neck/female/necklace-seashells", "weight": 1 },
+    "neck-papyrus-root-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/papyrus-root-amulet", "weight": 1 },
+    "neck-purpleheart-amulet": { "base": "game:entity/humanoid/villageraccessories/neck/female/purpleheart-amulet", "weight": 1 },
+
+    "cordovan": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/cordovan",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/cordovan",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/cordovan",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/cordovan",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/cordovan"
+      }
+    },
+    "darkpurple": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/darkpurple",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/darkpurple",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/darkpurple",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/darkpurple",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/darkpurple"
+      }
+    },
+    "ecru": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/ecru",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/ecru",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/ecru",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/ecru",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/ecru"
+      }
+    },
+    "eerieblack": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/eerieblack",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/eerieblack",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/eerieblack",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/eerieblack",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/eerieblack"
+      }
+    },
+    "harvestgold": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/harvestgold",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/harvestgold",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/harvestgold",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/harvestgold",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/harvestgold"
+      }
+    },
+    "heliotropegray": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/heliotropegray",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/heliotropegray",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/heliotropegray",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/heliotropegray",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/heliotropegray"
+      }
+    },
+    "liver": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/liver",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/liver",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/liver",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/liver",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/liver"
+      }
+    },
+    "mossgreen": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/mossgreen",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/mossgreen",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/mossgreen",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/mossgreen",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/mossgreen"
+      }
+    },
+    "oldburgundy": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/oldburgundy",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/oldburgundy",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/oldburgundy",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/oldburgundy",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/oldburgundy"
+      }
+    },
+    "palatinatepurple": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/palatinatepurple",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/palatinatepurple",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/palatinatepurple",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/palatinatepurple",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/palatinatepurple"
+      }
+    },
+    "rosewood": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/rosewood",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/rosewood",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/rosewood",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/rosewood",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/rosewood"
+      }
+    },
+    "russet": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/russet",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/russet",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/russet",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/russet",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/russet"
+      }
+    },
+    "sanddune": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/sanddune",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/sanddune",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/sanddune",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/sanddune",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/sanddune"
+      }
+    },
+    "wheat": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/wheat",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/wheat",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/wheat",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/wheat",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/wheat"
+      }
+    },
+    "wintergreendream": {
+      "overrideTextures": {
+        "mustache-hair": "game:entity/humanoid/seraphskinparts/hair/wintergreendream",
+        "beard-hair": "game:entity/humanoid/seraphskinparts/hair/wintergreendream",
+        "hair-base-hair": "game:entity/humanoid/seraphskinparts/hair/wintergreendream",
+        "hair-base2-hair": "game:entity/humanoid/seraphskinparts/hair/wintergreendream",
+        "hair-base3-hair": "game:entity/humanoid/seraphskinparts/hair/wintergreendream"
+      }
+    },
+
+    "bodyskin-1": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal1" } },
+    "bodyskin-2": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal2" } },
+    "bodyskin-3": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal3" } },
+    "bodyskin-4": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal4" } },
+    "bodyskin-5": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal5" } },
+    "bodyskin-6": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal6" } },
+    "bodyskin-7": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal7" } },
+    "bodyskin-8": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal8" } },
+    "bodyskin-9": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal9" } },
+    "bodyskin-10": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal10" } },
+    "bodyskin-11": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal11" } },
+    "bodyskin-12": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal12" } },
+    "bodyskin-13": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal13" } },
+    "bodyskin-14": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal14" } },
+    "bodyskin-15": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal15" } },
+    "bodyskin-16": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal16" } },
+    "bodyskin-17": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal17" } },
+    "bodyskin-18": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal18" } },
+    "bodyskin-19": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal19" } },
+    "bodyskin-20": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal20" } },
+    "bodyskin-21": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal21" } },
+    "bodyskin-22": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal22" } },
+    "bodyskin-23": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal23" } },
+    "bodyskin-24": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal24" } },
+    "bodyskin-25": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal25" } },
+    "bodyskin-26": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal26" } },
+    "bodyskin-27": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal27" } },
+    "bodyskin-28": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal28" } },
+    "bodyskin-29": { "overrideTextures": { "skin1": "game:entity/humanoid/villagerbody/skin/normal29" } },
+
+    "eyebrows-normal1": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal1" } },
+    "eyebrows-normal2": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal2" } },
+    "eyebrows-normal3": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal3" } },
+    "eyebrows-normal4": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal4" } },
+    "eyebrows-normal5": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal5" } },
+    "eyebrows-normal6": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal6" } },
+    "eyebrows-normal7": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal7" } },
+    "eyebrows-normal8": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal8" } },
+    "eyebrows-normal9": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/eyebrows/normal9" } },
+
+    "iris-1": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal1" } },
+    "iris-2": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal2" } },
+    "iris-3": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal3" } },
+    "iris-4": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal4" } },
+    "iris-5": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal5" } },
+    "iris-6": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal6" } },
+    "iris-7": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal7" } },
+    "iris-8": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal8" } },
+    "iris-9": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal9" } },
+    "iris-10": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal10" } },
+    "iris-11": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal11" } },
+    "iris-12": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal12" } },
+    "iris-13": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal13" } },
+    "iris-14": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal14" } },
+    "iris-15": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal15" } },
+    "iris-16": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal16" } },
+    "iris-17": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal17" } },
+    "iris-18": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal18" } },
+    "iris-19": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal19" } },
+    "iris-20": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal20" } },
+    "iris-21": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal21" } },
+    "iris-22": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal22" } },
+    "iris-23": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal23" } },
+    "iris-24": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal24" } },
+    "iris-25": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal25" } },
+    "iris-26": { "overrideTextures": { "skin-face-iris": "game:entity/humanoid/villagerbody/face/iris/normal26" } },
+
+    "eyelashes-normal1": { "overrideTextures": { "skin-face-eyelashes": "game:entity/humanoid/villagerbody/face/eyelashes/normal1" } },
+    "eyelashes-normal2": { "overrideTextures": { "skin-face-eyelashes": "game:entity/humanoid/villagerbody/face/eyelashes/normal2" } },
+
+    "faceextra-freckles1": { "overrideTextures": { "skin-face-faceextra": "game:entity/humanoid/villagerbody/face/faceextra/freckles1" } },
+    "faceextra-freckles2": { "overrideTextures": { "skin-face-faceextra": "game:entity/humanoid/villagerbody/face/faceextra/freckles2" } },
+    "faceextra-freckles3": { "overrideTextures": { "skin-face-faceextra": "game:entity/humanoid/villagerbody/face/faceextra/freckles3" } },
+
+    "lips-normal1": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal1" } },
+    "lips-normal2": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal2" } },
+    "lips-normal3": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal3" } },
+    "lips-normal4": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal4" } },
+    "lips-normal5": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal5" } },
+    "lips-normal6": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal6" } },
+    "lips-normal7": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal7" } },
+    "lips-normal8": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal8" } },
+    "lips-normal9": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal9" } },
+    "lips-normal10": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal10" } },
+    "lips-normal11": { "overrideTextures": { "skin-face-lips": "game:entity/humanoid/villagerbody/face/lips/normal11" } },
+
+    "scar-normal1": { "overrideTextures": { "skin-face-scar": "game:entity/humanoid/villagerbody/face/scar/normal1" } },
+
+    "sclera-normal1": { "overrideTextures": { "skin-face-sclera": "game:entity/humanoid/villagerbody/face/sclera/normal1" } },
+    "sclera-normal2": { "overrideTextures": { "skin-face-sclera": "game:entity/humanoid/villagerbody/face/sclera/normal2" } },
+    "sclera-normal3": { "overrideTextures": { "skin-face-sclera": "game:entity/humanoid/villagerbody/face/sclera/normal3" } },
+
+    "tatoo-normal1": { "overrideTextures": { "skin-face-tatoo": "game:entity/humanoid/villagerbody/face/tatoo/normal1" } },
+    "tatoo-normal2": { "overrideTextures": { "skin-face-tatoo": "game:entity/humanoid/villagerbody/face/tatoo/normal2" } },
+    "tatoo-normal3": { "overrideTextures": { "skin-face-tatoo": "game:entity/humanoid/villagerbody/face/tatoo/normal3" } },
+    "tatoo-normal4": { "overrideTextures": { "skin-face-tatoo": "game:entity/humanoid/villagerbody/face/tatoo/normal4" } },
+
+    "face-grain": { "base": "game:entity/humanoid/villageraccessories/face/grain", "weight": 1 },
+    
+    "foot-barber": { "base": "game:entity/humanoid/villageraccessories/foot/barber", "weight": 1 },
+    "foot-beekeeper": { "base": "game:entity/humanoid/villageraccessories/foot/beekeeper", "weight": 1 },
+    "foot-innkeeper": { "base": "game:entity/humanoid/villageraccessories/foot/innkeeper", "weight": 1 },
+    "foot-peasant1": { "base": "game:entity/humanoid/villageraccessories/foot/peasant1", "weight": 1 },
+    "foot-peasant2": { "base": "game:entity/humanoid/villageraccessories/foot/peasant2", "weight": 1 },
+    "foot-shepherd": { "base": "game:entity/humanoid/villageraccessories/foot/shepherd", "weight": 1 },
+    "foot-tailor": { "base": "game:entity/humanoid/villageraccessories/foot/tailor", "weight": 1 },
+    "foot-winter1": { "base": "game:entity/humanoid/villageraccessories/foot/winter1", "weight": 1 },
+    "foot-winter2": { "base": "game:entity/humanoid/villageraccessories/foot/winter2", "weight": 1 },
+    
+    "hand-alchemist": { "base": "game:entity/humanoid/villageraccessories/hand/alchemist", "weight": 1},
+    "hand-barber": { "base": "game:entity/humanoid/villageraccessories/hand/gloves", "weight": 1, "overrideTextures": {"hand-gloves": "game:entity/humanoid/villagerclothes/hand/barber"} },
+    "hand-beekeeper": { "base": "game:entity/humanoid/villageraccessories/hand/beekeeper", "weight": 1 },
+    "hand-gloves": { "base": "game:entity/humanoid/villageraccessories/hand/gloves", "weight": 1 },
+    "hand-peasant1": { "base": "game:entity/humanoid/villageraccessories/hand/gloves", "weight": 1, "overrideTextures": {"hand-gloves": "game:entity/humanoid/villagerclothes/hand/peasant1"} },
+    "hand-peasant2": { "base": "game:entity/humanoid/villageraccessories/hand/gloves", "weight": 1, "overrideTextures": {"hand-gloves": "game:entity/humanoid/villagerclothes/hand/peasant2"} },
+    "hand-shepherd": { "base": "game:entity/humanoid/villageraccessories/hand/gloves", "weight": 1, "overrideTextures": {"hand-gloves": "game:entity/humanoid/villagerclothes/hand/shepherd"} },
+    "hand-winter1": { "base": "game:entity/humanoid/villageraccessories/hand/winter1", "weight": 1 },
+    "hand-winter2": { "base": "game:entity/humanoid/villageraccessories/hand/winter2", "weight": 1 },
+
+    "head-alchemist": { "base": "game:entity/humanoid/villageraccessories/head/alchemist", "weight": 1, "disableElements": ["hair-base-Hair-Upper"] },
+    "head-straw": { "base": "game:entity/humanoid/seraph/clothing/head/straw-hat", "weight": 1, "disableElements": ["hair-base-Hair-Upper"] },
+
+    "waist-alchemist": { "base": "game:entity/humanoid/villageraccessories/waist/alchemist", "weight": 1 },
+    "waist-barber": { "base": "game:entity/humanoid/villageraccessories/waist/barber", "weight": 1 },
+    "waist-beekeeper": { "base": "game:entity/humanoid/villageraccessories/waist/beekeeper", "weight": 1 },
+    "waist-innkeeper-accessories": { "base": "game:entity/humanoid/villageraccessories/waist/innkeeper-accessories", "weight": 1 },
+    "waist-innkeeper": { "base": "game:entity/humanoid/villageraccessories/waist/innkeeper", "weight": 1 },
+    "waist-peasant1": { "base": "game:entity/humanoid/villageraccessories/waist/peasant1", "weight": 1 },
+    "waist-peasant2": { "base": "game:entity/humanoid/villageraccessories/waist/peasant2", "weight": 1 },
+    "waist-shepherd": { "base": "game:entity/humanoid/villageraccessories/waist/shepherd", "weight": 1 },
+    "waist-tailor": { "base": "game:entity/humanoid/villageraccessories/waist/tailor", "weight": 1 },
+    "waist-winter1": { "base": "game:entity/humanoid/villageraccessories/waist/winter1", "weight": 1 },
+    "waist-winter2": { "base": "game:entity/humanoid/villageraccessories/waist/winter2", "weight": 1 },
+
+    "lowerbody-female-fisher-fisher": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/fisher","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/fisher" } },
+    "lowerbody-pants-barber": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/barber" } },
+    "lowerbody-pants-beekeeper": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/beekeeper" } },
+    "lowerbody-pants-blacksmith": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/blacksmith" } },
+    "lowerbody-pants-guard": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/guard" } },
+    "lowerbody-pants-hunter": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/hunter" } },
+    "lowerbody-pants-innkeeper": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/innkeeper" } },
+    "lowerbody-pants-miner-clean": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/miner-clean" } },
+    "lowerbody-pants-musician": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/musician" } },
+    "lowerbody-pants-peasant1": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/peasant1" } },
+    "lowerbody-pants-peasant2": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/peasant2" } },
+    "lowerbody-pants-peasant3": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/peasant3" } },
+    "lowerbody-pants-shepherd": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/shepherd" } },
+    "lowerbody-pants-tailor": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/tailor" } },
+    "lowerbody-pants-winter1": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/winter1" } },
+    "lowerbody-pants-winter2": { "base": "game:entity/humanoid/villageraccessories/lowerbody/female/pants","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/pants/winter2" } },
+    "lowerbody-skirt-peasant-skirt1": { "base": "game:entity/humanoid/villageraccessories/lowerbody/skirt","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/skirt/peasant-skirt1" } },
+    "lowerbody-skirt-peasant-skirt2": { "base": "game:entity/humanoid/villageraccessories/lowerbody/skirt","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/skirt/peasant-skirt2" } },
+    "lowerbody-skirt-peasant-skirt3": { "base": "game:entity/humanoid/villageraccessories/lowerbody/skirt","weight": 1,"overrideTextures": { "lowerbody-lowerbody": "game:entity/humanoid/villagerclothes/lowerbody/skirt/peasant-skirt3" } },
+    
+    "shoulder-female-innkeeper-apron-innkeeper": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/innkeeper-apron","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/apron/innkeeper" }, "disableElements": ["skirtfront"] },
+    "shoulder-female-longsleeve-hood-off-musician": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/longsleeve-hood-off","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/longsleeve-hood/musician" } },
+    "shoulder-female-shortsleeve-fisher": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/shortsleeve","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/shortsleeve/fisher" } },
+    "shoulder-female-shortsleeve-peasant1": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/shortsleeve","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/shortsleeve/peasant1" } },
+    "shoulder-female-shortsleeve-peasant2": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/shortsleeve","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/shortsleeve/peasant2" } },
+    "shoulder-female-shortsleeve-peasant3": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/shortsleeve","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/shortsleeve/peasant3" } },
+    "shoulder-female-shortsleeve-winter1": { "base": "game:entity/humanoid/villageraccessories/shoulder/female/shortsleeve","weight": 1,"overrideTextures": { "shoulder-shoulder": "game:entity/humanoid/villagerclothes/shoulder/shortsleeve/winter1" } },
+    "upperbodyover-female-capelet-alchemist": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/capelet","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/capelet/alchemist" } },
+    
+    "upperbodyover-female-longsleeve-extended-beekeeper": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/longsleeve-extended","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/longsleeve-extended/beekeeper" } },
+    "upperbodyover-female-longsleeve-extended-coat-verylong": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/longsleeve-extended","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/longsleeve-extended/coat-verylong" } },
+    "upperbodyover-female-longsleeve-extended-musician": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/longsleeve-extended","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/longsleeve-extended/musician" } },
+    "upperbodyover-female-longsleeve-coat-long": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/longsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/longsleeve/coat-long" } },
+    "upperbodyover-female-shortsleeve-coat-short": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/shortsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/shortsleeve/coat-short" } },
+    "upperbodyover-female-shortsleeve-miner-clean": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/shortsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/shortsleeve/miner-clean" } },
+    "upperbodyover-female-shortsleeve-tailor": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/shortsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/shortsleeve/tailor" } },
+    "upperbodyover-female-shortsleeve-winter1": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/shortsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/shortsleeve/winter1" } },
+    "upperbodyover-female-shortsleeve-winter2": { "base": "game:entity/humanoid/villageraccessories/upperbodyover/female/shortsleeve","weight": 1,"overrideTextures": { "upperbodyover-upperbodyover": "game:entity/humanoid/villagerclothes/upperbodyover/shortsleeve/winter2" } },
+
+    "upperbody-female-longsleeve-extended-alchemist": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve-extended","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve-extended/alchemist" } },
+    "upperbody-female-longsleeve-beekeeper": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve/beekeeper" } },
+    "upperbody-female-longsleeve-fisher": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve/fisher" } },
+    "upperbody-female-longsleeve-musician": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve/musician" } },
+    "upperbody-female-longsleeve-shepherd": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve-extended","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve-extended/shepherd" } },
+    "upperbody-female-longsleeve-winter1": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve/winter1" } },
+    "upperbody-female-longsleeve-winter2": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/longsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/longsleeve/winter2" } },
+    "upperbody-female-shortsleeve-barber": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/barber" } },
+    "upperbody-female-shortsleeve-blacksmith": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/blacksmith" } },
+    "upperbody-female-shortsleeve-guard": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/guard" } },
+    "upperbody-female-shortsleeve-hunter": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/hunter" } },
+    "upperbody-female-shortsleeve-innkeeper": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/innkeeper" } },
+    "upperbody-female-shortsleeve-miner-clean": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/miner-clean" } },
+    "upperbody-female-shortsleeve-peasant1": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/peasant1" } },
+    "upperbody-female-shortsleeve-peasant2": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/peasant2" } },
+    "upperbody-female-shortsleeve-peasant3": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/peasant3" } },
+    "upperbody-female-shortsleeve-peasant4": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/peasant4" } },
+    "upperbody-female-shortsleeve-tailor": { "base": "game:entity/humanoid/villageraccessories/upperbody/female/shortsleeve","weight": 1,"overrideTextures": { "upperbody-upperbody": "game:entity/humanoid/villagerclothes/upperbody/shortsleeve/tailor" } },
+
+
+    "nothing-w10": { "base": null, "weight": 10 },
+    "nothing-w5": { "base": null, "weight": 5 },
+    "nothing": { "base": null, "weight": 1 }
+  },
+  "byslot": [
+    {
+      "code": "skin-face",
+      "variants": [ "skin-face-normal1", "skin-face-normal2", "skin-face-normal3", "skin-face-normal4", "skin-face-normal5", "skin-face-normal6", "skin-face-normal7" ]
+    },
+    {
+      "code": "eyebrows",
+      "variants": [ "eyebrows-normal1", "eyebrows-normal2", "eyebrows-normal3", "eyebrows-normal4", "eyebrows-normal5", "eyebrows-normal6", "eyebrows-normal7", "eyebrows-normal8", "eyebrows-normal9" ]
+    },
+    { "code": "eyelashes", "variants": [ "eyelashes-normal1", "eyelashes-normal2" ] },
+    { "code": "faceextra", "variants": [ "nothing-w10", "faceextra-freckles1", "faceextra-freckles2", "faceextra-freckles3" ] },
+    { "code": "bodyskin", "variants": [ "bodyskin-1", "bodyskin-2", "bodyskin-3", "bodyskin-4", "bodyskin-5", "bodyskin-6", "bodyskin-7", "bodyskin-8", "bodyskin-9", "bodyskin-10", "bodyskin-11", "bodyskin-12", "bodyskin-13", "bodyskin-14", "bodyskin-15", "bodyskin-16", "bodyskin-17", "bodyskin-18", "bodyskin-19", "bodyskin-20", "bodyskin-21", "bodyskin-22", "bodyskin-23" ] },
+    { "code": "iris", "variants": ["iris-1", "iris-2", "iris-3", "iris-4", "iris-5", "iris-6", "iris-7", "iris-8", "iris-9", "iris-10", "iris-11", "iris-12", "iris-13", "iris-14", "iris-15", "iris-16", "iris-17", "iris-18", "iris-19", "iris-20", "iris-21", "iris-22", "iris-23", "iris-24", "iris-25", "iris-26" ]},
+    { "code": "lips", "variants": ["lips-normal1", "lips-normal2", "lips-normal3", "lips-normal4", "lips-normal5", "lips-normal6", "lips-normal7", "lips-normal8", "lips-normal9", "lips-normal10", "lips-normal11" ]},
+    { "code": "scar", "variants": [ "nothing-w10", "scar-normal1" ] },
+    { "code": "sclera", "variants": [ "sclera-normal1", "sclera-normal2", "sclera-normal3" ] },
+    { "code": "tatoo", "variants": [ "nothing-w10", "tatoo-normal1", "tatoo-normal2", "tatoo-normal3", "tatoo-normal4" ] },
+    {
+      "code": "hair-base",
+      "variants": [
+        "hair-00",
+        "hair-02",
+        "hair-03",
+        "hair-04",
+        "hair-05",
+        "hair-06",
+        "hair-07",
+        "hair-08",
+        "hair-09",
+        "hair-10",
+        "hair-11",
+        "hair-13",
+        "hair-14",
+        "hair-16",
+        "hair-17",
+        "hair-19",
+        "hair-20",
+        "hair-21",
+        "hair-22",
+        "hair-long-braid1",
+        "hair-long-braid2",
+        "hair-long-combed",
+        "hair-long-dreads",
+        "hair-long-dreads2",
+        "hair-long-loose",
+        "hair-long-strands",
+        "hair-medium-afro",
+        "hair-medium-basic",
+        "hair-medium-layered",
+        "hair-medium-pigtails",
+        "hair-medium-ponytail",
+        "hair-medium-snood",
+        "hair-medium-spiky",
+        "hair-short-bangs",
+        "hair-short-braidedup",
+        "hair-short-sidebraids1",
+        "hair-short-topbun"
+      ]
+    },
+    { "code": "hair-base2", "variants": [ "nothing" ] },
+    { "code": "hair-base3", "variants": [ "nothing" ] },
+    {
+      "code": "haircolor",
+      "variants": [
+        "cordovan",
+        "darkpurple",
+        "ecru",
+        "eerieblack",
+        "harvestgold",
+        "heliotropegray",
+        "liver",
+        "mossgreen",
+        "oldburgundy",
+        "palatinatepurple",
+        "rosewood",
+        "russet",
+        "sanddune",
+        "wheat"
+      ]
+    },
+    { "code": "arm", "variants": [ "nothing-w5", "arm-barber-pouch", "arm-bronze-lapis-bracelet", "arm-copper-armlet", "arm-copper-lapis-bracelet", "arm-coral-bracelet", "arm-peasant-bracer", "arm-seashell-bracelet" ] },
+    { "code": "face", "variants": [ "nothing-w10", "face-grain" ] },
+    { "code": "foot", "variants": [ "foot-barber", "foot-beekeeper", "foot-innkeeper", "foot-peasant1", "foot-peasant2", "foot-shepherd", "foot-tailor", "foot-winter1", "foot-winter2" ] },
+    { "code": "hand", "variants": [ "nothing-w5", "hand-alchemist", "hand-barber", "hand-beekeeper", "hand-gloves", "hand-peasant1", "hand-peasant2", "hand-shepherd" ] },
+    { "code": "heldl", "variants": [ "nothing" ] },
+    { "code": "heldr", "variants": [ "nothing" ] },
+    { "code": "instrument", "variants": [ "nothing" ] },
+    { "code": "head", "variants": [ "nothing-w10","head-alchemist", "head-straw" ] },
+    { "code": "lowerbody", "variants": [ "lowerbody-female-fisher-fisher", "lowerbody-pants-barber", "lowerbody-pants-beekeeper", "lowerbody-pants-blacksmith", "lowerbody-pants-guard", "lowerbody-pants-hunter", "lowerbody-pants-innkeeper", "lowerbody-pants-miner-clean", "lowerbody-pants-musician", "lowerbody-pants-peasant1", "lowerbody-pants-peasant2", "lowerbody-pants-peasant3", "lowerbody-pants-shepherd", "lowerbody-pants-tailor", "lowerbody-pants-winter1", "lowerbody-pants-winter2", "lowerbody-skirt-peasant-skirt1", "lowerbody-skirt-peasant-skirt2", "lowerbody-skirt-peasant-skirt3" ] },
+    { "code": "neck", "variants": [ "nothing-w5", "neck-acacia-amulet", "neck-bamboo-seed-amulet", "neck-copper-lapis-necklace", "neck-ebony-amulet", "neck-kapok-amulet", "neck-lapis-necklace", "neck-necklace-coral", "neck-necklace-seashells", "neck-papyrus-root-amulet", "neck-purpleheart-amulet"]},
+    { "code": "shoulder", "variants": [ "nothing-w10","shoulder-female-innkeeper-apron-innkeeper", "shoulder-female-longsleeve-hood-off-musician", "shoulder-female-shortsleeve-fisher", "shoulder-female-shortsleeve-peasant1", "shoulder-female-shortsleeve-peasant2", "shoulder-female-shortsleeve-peasant3", "shoulder-female-shortsleeve-winter1"]},
+    { "code": "upperbody", "variants": [ "upperbody-female-longsleeve-extended-alchemist", "upperbody-female-longsleeve-beekeeper", "upperbody-female-longsleeve-fisher", "upperbody-female-longsleeve-musician", "upperbody-female-longsleeve-shepherd", "upperbody-female-longsleeve-winter1", "upperbody-female-longsleeve-winter2", "upperbody-female-shortsleeve-barber", "upperbody-female-shortsleeve-blacksmith", "upperbody-female-shortsleeve-guard", "upperbody-female-shortsleeve-hunter", "upperbody-female-shortsleeve-innkeeper", "upperbody-female-shortsleeve-miner-clean", "upperbody-female-shortsleeve-peasant1", "upperbody-female-shortsleeve-peasant2", "upperbody-female-shortsleeve-peasant3", "upperbody-female-shortsleeve-peasant4", "upperbody-female-shortsleeve-tailor"]},
+    { "code": "upperbodyover", "variants": [ "nothing-w10", "upperbodyover-female-capelet-alchemist", "upperbodyover-female-longsleeve-extended-beekeeper", "upperbodyover-female-longsleeve-extended-coat-verylong", "upperbodyover-female-longsleeve-extended-musician", "upperbodyover-female-longsleeve-coat-long", "upperbodyover-female-shortsleeve-coat-short", "upperbodyover-female-shortsleeve-miner-clean", "upperbodyover-female-shortsleeve-tailor", "upperbodyover-female-shortsleeve-winter1", "upperbodyover-female-shortsleeve-winter2"]}, 
+    { "code": "waist", "variants": [ "nothing-w5","waist-alchemist", "waist-barber", "waist-beekeeper", "waist-innkeeper-accessories", "waist-innkeeper", "waist-peasant1", "waist-peasant2", "waist-shepherd", "waist-tailor", "waist-winter1" ] }
+  ]
+}
